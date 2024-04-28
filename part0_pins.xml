@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
+<!-- Physical pin location and I/O standards for component interfaces described in board.xml -->
+<part_info part_name="xc7z020clg400-2">
+	<pins>
+		<pin index="0" name ="leds_4bits_tri_o_0" iostandard="LVCMOS33" loc="J14"/>
+		<pin index="1" name ="leds_4bits_tri_o_1" iostandard="LVCMOS33" loc="K14"/>
+		<pin index="2" name ="leds_4bits_tri_o_2" iostandard="LVCMOS33" loc="J18"/>
+		<pin index="3" name ="leds_4bits_tri_o_3" iostandard="LVCMOS33" loc="H18"/>
+	</pins>
+</part_info>
