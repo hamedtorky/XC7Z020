@@ -200,12 +200,12 @@ SOFTWARE.
         </connection>
 
         <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
-            <connection_map name="part0_sys_clock_1" c1_st_index="12" c1_end_index="12" c2_st_index="0"
+            <connection_map name="part0_sys_clock_1" c1_st_index="8" c1_end_index="8" c2_st_index="0"
                             c2_end_index="0"/>
         </connection>
 
         <connection name="part0_hdmi_out" component1="part0" component2="hdmi_out">
-            <connection_map name="part0_hdmi_out_1" c1_st_index="23" c1_end_index="30" c2_st_index="0"
+            <connection_map name="part0_hdmi_out_1" c1_st_index="19" c1_end_index="26" c2_st_index="0"
                             c2_end_index="7"/>
         </connection>
 

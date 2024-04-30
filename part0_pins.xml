@@ -28,11 +28,14 @@ SOFTWARE.
     <pin index="1" name="btns_4bits_tri_i_1" iostandard="LVCMOS33" loc="M14"/>
     <pin index="2" name="btns_4bits_tri_i_2" iostandard="LVCMOS33" loc="L17"/>
     <pin index="3" name="btns_4bits_tri_i_3" iostandard="LVCMOS33" loc="L16"/>
+
     <pin index="4" name="leds_4bits_tri_o_0" iostandard="LVCMOS33" loc="J14"/>
     <pin index="5" name="leds_4bits_tri_o_1" iostandard="LVCMOS33" loc="K14"/>
     <pin index="6" name="leds_4bits_tri_o_2" iostandard="LVCMOS33" loc="J18"/>
     <pin index="7" name="leds_4bits_tri_o_3" iostandard="LVCMOS33" loc="H18"/>
+
     <pin index="8" name="sys_clk" iostandard="LVCMOS33" loc="U18"/>
+
     <pin index="9" name="hdmi_rx_hpd" iostandard="LVCMOS33" loc="W19"/>
     <pin index="10" name="TMDS_IN_clk_p" iostandard="TMDS_33" loc="U18"/>
     <pin index="11" name="TMDS_IN_clk_n" iostandard="TMDS_33" loc="U19"/>
@@ -43,6 +46,7 @@ SOFTWARE.
     <pin index="16" name="TMDS_IN_data_n_1" iostandard="TMDS_33" loc="U20"/>
     <pin index="17" name="TMDS_IN_data_n_2" iostandard="TMDS_33" loc="P20"/>
     <pin index="18" name="hdmi_tx_hpd" iostandard="LVCMOS33" loc="E18"/>
+
     <pin index="19" name="TMDS_OUT_clk_p" iostandard="LVCMOS33" loc="H16"/>
     <pin index="20" name="TMDS_OUT_clk_n" iostandard="LVCMOS33" loc="H17"/>
     <pin index="21" name="TMDS_OUT_data_p_0" iostandard="LVCMOS33" loc="D19"/>
@@ -51,6 +55,7 @@ SOFTWARE.
     <pin index="24" name="TMDS_OUT_data_n_0" iostandard="LVCMOS33" loc="D20"/>
     <pin index="25" name="TMDS_OUT_data_n_1" iostandard="LVCMOS33" loc="B20"/>
     <pin index="26" name="TMDS_OUT_data_n_2" iostandard="LVCMOS33" loc="A20"/>
+
     <pin index="27" name="hdmi_in_ddc_scl" iostandard="LVCMOS33" loc="W18"/>
     <pin index="28" name="hdmi_in_ddc_sda" iostandard="LVCMOS33" loc="Y19"/>
 
