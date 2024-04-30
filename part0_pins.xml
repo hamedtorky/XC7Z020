@@ -23,56 +23,71 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 <part_info part_name="xc7z020clg400-2">
-<pins>
-  <pin index="0" name ="btns_4bits_tri_i_0" iostandard="LVCMOS33" loc="M15"/>
-  <pin index="1" name ="btns_4bits_tri_i_1" iostandard="LVCMOS33" loc="M14"/>
-  <pin index="2" name ="btns_4bits_tri_i_2" iostandard="LVCMOS33" loc="L17"/>
-  <pin index="3" name ="btns_4bits_tri_i_3" iostandard="LVCMOS33" loc="L16"/>
-  <pin index="4" name ="leds_4bits_tri_o_0" iostandard="LVCMOS33" loc="J14"/>
-  <pin index="5" name ="leds_4bits_tri_o_1" iostandard="LVCMOS33" loc="K14"/>
-  <pin index="6" name ="leds_4bits_tri_o_2" iostandard="LVCMOS33" loc="J18"/>
-  <pin index="7" name ="leds_4bits_tri_o_3" iostandard="LVCMOS33" loc="H18"/>
-  <pin index="8" name ="sws_4bits_tri_i_0" iostandard="LVCMOS33" loc="G15"/>
-  <pin index="9" name ="sws_4bits_tri_i_1" iostandard="LVCMOS33" loc="P15"/>
-  <pin index="10" name ="sws_4bits_tri_i_2" iostandard="LVCMOS33" loc="W13"/>
-  <pin index="11" name ="sws_4bits_tri_i_3" iostandard="LVCMOS33" loc="T16"/>
-  <pin index="12" name ="sys_clk" iostandard="LVCMOS33" loc="U18"/>
-  
-  <pin index="13" name ="hdmi_rx_hpd" iostandard="LVCMOS33" loc="W19"/>
-  
-  <pin index="14" name ="TMDS_IN_clk_p" iostandard="TMDS_33" loc="U18"/>
-  <pin index="15" name ="TMDS_IN_clk_n" iostandard="TMDS_33" loc="U19"/>
-  <pin index="16" name ="TMDS_IN_data_p_0" iostandard="TMDS_33" loc="V20"/>
-  <pin index="17" name ="TMDS_IN_data_p_1" iostandard="TMDS_33" loc="T20"/>
-  <pin index="18" name ="TMDS_IN_data_p_2" iostandard="TMDS_33" loc="N20"/>
-  <pin index="19" name ="TMDS_IN_data_n_0" iostandard="TMDS_33" loc="W20"/>
-  <pin index="20" name ="TMDS_IN_data_n_1" iostandard="TMDS_33" loc="U20"/>
-  <pin index="21" name ="TMDS_IN_data_n_2" iostandard="TMDS_33" loc="P20"/> 
-  
-  
-  <pin index="22" name ="hdmi_tx_hpd" iostandard="LVCMOS33" loc="E18"/>
-  
-  <pin index="23" name ="TMDS_OUT_clk_p" iostandard="LVCMOS33" loc="H16"/>
-  <pin index="24" name ="TMDS_OUT_clk_n" iostandard="LVCMOS33" loc="H17"/>
-  <pin index="25" name ="TMDS_OUT_data_p_0" iostandard="LVCMOS33" loc="D19"/>
-  <pin index="26" name ="TMDS_OUT_data_p_1" iostandard="LVCMOS33" loc="C20"/>
-  <pin index="27" name ="TMDS_OUT_data_p_2" iostandard="LVCMOS33" loc="B19"/>
-  <pin index="28" name ="TMDS_OUT_data_n_0" iostandard="LVCMOS33" loc="D20"/>
-  <pin index="29" name ="TMDS_OUT_data_n_1" iostandard="LVCMOS33" loc="B20"/>
-  <pin index="30" name ="TMDS_OUT_data_n_2" iostandard="LVCMOS33" loc="A20"/>
-  
-  <pin index="31" name ="hdmi_in_ddc_scl" iostandard="LVCMOS33" loc="W18"/>
-  <pin index="32" name ="hdmi_in_ddc_sda" iostandard="LVCMOS33" loc="Y19"/>
+  <pins>
+    <pin index="0" name="btns_4bits_tri_i_0" iostandard="LVCMOS33" loc="M15"/>
+    <pin index="1" name="btns_4bits_tri_i_1" iostandard="LVCMOS33" loc="M14"/>
+    <pin index="2" name="btns_4bits_tri_i_2" iostandard="LVCMOS33" loc="L17"/>
+    <pin index="3" name="btns_4bits_tri_i_3" iostandard="LVCMOS33" loc="L16"/>
+    <pin index="4" name="leds_4bits_tri_o_0" iostandard="LVCMOS33" loc="J14"/>
+    <pin index="5" name="leds_4bits_tri_o_1" iostandard="LVCMOS33" loc="K14"/>
+    <pin index="6" name="leds_4bits_tri_o_2" iostandard="LVCMOS33" loc="J18"/>
+    <pin index="7" name="leds_4bits_tri_o_3" iostandard="LVCMOS33" loc="H18"/>
+    <pin index="8" name="sys_clk" iostandard="LVCMOS33" loc="U18"/>
+    <pin index="9" name="hdmi_rx_hpd" iostandard="LVCMOS33" loc="W19"/>
+    <pin index="10" name="TMDS_IN_clk_p" iostandard="TMDS_33" loc="U18"/>
+    <pin index="11" name="TMDS_IN_clk_n" iostandard="TMDS_33" loc="U19"/>
+    <pin index="12" name="TMDS_IN_data_p_0" iostandard="TMDS_33" loc="V20"/>
+    <pin index="13" name="TMDS_IN_data_p_1" iostandard="TMDS_33" loc="T20"/>
+    <pin index="14" name="TMDS_IN_data_p_2" iostandard="TMDS_33" loc="N20"/>
+    <pin index="15" name="TMDS_IN_data_n_0" iostandard="TMDS_33" loc="W20"/>
+    <pin index="16" name="TMDS_IN_data_n_1" iostandard="TMDS_33" loc="U20"/>
+    <pin index="17" name="TMDS_IN_data_n_2" iostandard="TMDS_33" loc="P20"/>
+    <pin index="18" name="hdmi_tx_hpd" iostandard="LVCMOS33" loc="E18"/>
+    <pin index="19" name="TMDS_OUT_clk_p" iostandard="LVCMOS33" loc="H16"/>
+    <pin index="20" name="TMDS_OUT_clk_n" iostandard="LVCMOS33" loc="H17"/>
+    <pin index="21" name="TMDS_OUT_data_p_0" iostandard="LVCMOS33" loc="D19"/>
+    <pin index="22" name="TMDS_OUT_data_p_1" iostandard="LVCMOS33" loc="C20"/>
+    <pin index="23" name="TMDS_OUT_data_p_2" iostandard="LVCMOS33" loc="B19"/>
+    <pin index="24" name="TMDS_OUT_data_n_0" iostandard="LVCMOS33" loc="D20"/>
+    <pin index="25" name="TMDS_OUT_data_n_1" iostandard="LVCMOS33" loc="B20"/>
+    <pin index="26" name="TMDS_OUT_data_n_2" iostandard="LVCMOS33" loc="A20"/>
+    <pin index="27" name="hdmi_in_ddc_scl" iostandard="LVCMOS33" loc="W18"/>
+    <pin index="28" name="hdmi_in_ddc_sda" iostandard="LVCMOS33" loc="Y19"/>
 
+    <pin index="29" name="J2003" iostandard="LVCMOS33" loc="R14"/>
+    <pin index="30" name="J2004" iostandard="LVCMOS33" loc="P14"/>
+    <pin index="31" name="J2005" iostandard="LVCMOS33" loc="U12"/>
+    <pin index="32" name="J2006" iostandard="LVCMOS33" loc="T12"/>
+    <pin index="33" name="J2007" iostandard="LVCMOS33" loc="T15"/>
+    <pin index="34" name="J2008" iostandard="LVCMOS33" loc="T14"/>
+    <pin index="35" name="J2009" iostandard="LVCMOS33" loc="T11"/>
+    <pin index="36" name="J2010" iostandard="LVCMOS33" loc="T10"/>
+    <pin index="37" name="J2011" iostandard="LVCMOS33" loc="U15"/>
+    <pin index="38" name="J2012" iostandard="LVCMOS33" loc="U14"/>
+    <pin index="39" name="J2013" iostandard="LVCMOS33" loc="P19"/>
+    <pin index="40" name="J2014" iostandard="LVCMOS33" loc="N18"/>
+    <pin index="41" name="J2015" iostandard="LVCMOS33" loc="R17"/>
+    <pin index="42" name="J2016" iostandard="LVCMOS33" loc="R16"/>
+    <pin index="43" name="J2017" iostandard="LVCMOS33" loc="P15"/>
+    <pin index="44" name="J2018" iostandard="LVCMOS33" loc="P16"/>
+    <pin index="45" name="J2019" iostandard="LVCMOS33" loc="N17"/>
+    <pin index="46" name="J2020" iostandard="LVCMOS33" loc="P18"/>
+    <pin index="47" name="J2021" iostandard="LVCMOS33" loc="V16"/>
+    <pin index="48" name="J2022" iostandard="LVCMOS33" loc="W16"/>
+    <pin index="49" name="J2023" iostandard="LVCMOS33" loc="R18"/>
+    <pin index="50" name="J2024" iostandard="LVCMOS33" loc="T17"/>
+    <pin index="51" name="J2025" iostandard="LVCMOS33" loc="W19"/>
+    <pin index="52" name="J2026" iostandard="LVCMOS33" loc="W18"/>
+    <pin index="53" name="J2027" iostandard="LVCMOS33" loc="W20"/>
+    <pin index="54" name="J2028" iostandard="LVCMOS33" loc="V20"/>
+    <pin index="55" name="J2029" iostandard="LVCMOS33" loc="P20"/>
+    <pin index="56" name="J2030" iostandard="LVCMOS33" loc="N20"/>
+    <pin index="57" name="J2031" iostandard="LVCMOS33" loc="U17"/>
+    <pin index="58" name="J2032" iostandard="LVCMOS33" loc="T16"/>
+    <pin index="59" name="J2033" iostandard="LVCMOS33" loc="U20"/>
+    <pin index="60" name="J2034" iostandard="LVCMOS33" loc="T20"/>
+    <pin index="61" name="J2035" iostandard="LVCMOS33" loc="V15"/>
+    <pin index="62" name="J2036" iostandard="LVCMOS33" loc="W15"/>
 
-
-  <pin index="33" name ="rgb_led_tri_o_0" iostandard="LVCMOS33" loc="Y12"/>
-  <pin index="34" name ="rgb_led_tri_o_1" iostandard="LVCMOS33" loc="T5"/>
-  <pin index="35" name ="rgb_led_tri_o_2" iostandard="LVCMOS33" loc="Y11"/>
-  <pin index="36" name ="rgb_led_tri_o_3" iostandard="LVCMOS33" loc="M17"/>
-  <pin index="37" name ="rgb_led_tri_o_4" iostandard="LVCMOS33" loc="F17"/>
-  <pin index="38" name ="rgb_led_tri_o_5" iostandard="LVCMOS33" loc="V16"/>
-
-
-</pins>
+  </pins>
 </part_info>
