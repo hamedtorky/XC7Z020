@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
-<part_info part_name="xc7z020clg400-1">
+<part_info part_name="xc7z020clg400-2">
 <pins>
   <pin index="0" name ="btns_4bits_tri_i_0" iostandard="LVCMOS33" loc="M15"/>
   <pin index="1" name ="btns_4bits_tri_i_1" iostandard="LVCMOS33" loc="M14"/>
