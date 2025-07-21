@@ -38,7 +38,7 @@ SOFTWARE.
     </compatible_board_revisions>
 
     <!-- Board file revision -->
-    <file_version>1.0</file_version>
+    <file_version>2.0</file_version>
 
     <!-- Board description -->
     <description>
@@ -155,6 +155,50 @@ SOFTWARE.
                     </port_maps>
                 </interface>
 
+                <interface mode="master" name="rs485_1" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs485_1" preset_proc="rs485_1_preset">
+                    <port_maps>
+                        <port_map logical_port="TX" physical_port="485_TXD1" dir="out">
+                            <pin_maps><pin_map port_index="0" component_pin="485_TXD1"/></pin_maps>
+                        </port_map>
+                        <port_map logical_port="RX" physical_port="485_RXD1" dir="in">
+                            <pin_maps><pin_map port_index="0" component_pin="485_RXD1"/></pin_maps>
+                        </port_map>
+                        <port_map logical_port="RTS" physical_port="485_DE1" dir="out">
+                            <pin_maps><pin_map port_index="0" component_pin="485_DE1"/></pin_maps>
+                        </port_map>
+                    </port_maps>
+                </interface>
+
+                <interface mode="master" name="rs485_2" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs485_2" preset_proc="rs485_2_preset">
+                    <port_maps>
+                        <port_map logical_port="TX" physical_port="485_TXD2" dir="out">
+                            <pin_maps><pin_map port_index="0" component_pin="485_TXD2"/></pin_maps>
+                        </port_map>
+                        <port_map logical_port="RX" physical_port="485_RXD2" dir="in">
+                            <pin_maps><pin_map port_index="0" component_pin="485_RXD2"/></pin_maps>
+                        </port_map>
+                        <port_map logical_port="RTS" physical_port="485_DE2" dir="out">
+                            <pin_maps><pin_map port_index="0" component_pin="485_DE2"/></pin_maps>
+                        </port_map>
+                    </port_maps>
+                </interface>
+
+                <interface mode="master" name="usb_uart" type="xilinx.com:interface:uart_rtl:1.0"
+                        of_component="usb_uart" preset_proc="usb_uart_preset">
+                    <port_maps>
+                        <port_map logical_port="RX" physical_port="usb_uart_rx" dir="in">
+                            <pin_maps>
+                                <pin_map port_index="0" component_pin="usb_uart_rx"/>
+                            </pin_maps>
+                        </port_map>
+                        <port_map logical_port="TX" physical_port="usb_uart_tx" dir="out">
+                            <pin_maps>
+                                <pin_map port_index="0" component_pin="usb_uart_tx"/>
+                            </pin_maps>
+                        </port_map>
+                    </port_maps>
+                </interface>
+
             </interfaces>
         </component>
 
@@ -180,6 +224,21 @@ SOFTWARE.
         <component name="hdmi_out_hpd_led" display_name="HDMI out HPD" type="chip" sub_type="led" major_group="HDMI">
             <description>HDMI out HPD</description>
         </component>
+
+        <component name="rs485_1" display_name="RS485 Port 1" type="chip" sub_type="uart" major_group="RS485">
+            <description>RS485 Transceiver 1 (connected to PS MIO)</description>
+        </component>
+
+        <component name="rs485_2" display_name="RS485 Port 2" type="chip" sub_type="uart" major_group="RS485">
+            <description>RS485 Transceiver 2 (connected to PL logic)</description>
+        </component>
+
+        <component name="usb_uart" display_name="USB UART"
+                type="chip" sub_type="uart" major_group="UART">
+            <description>USB to UART using CP2102 (PS MIO48/49)</description>
+        </component>
+
+
     </components>
 
     <jtag_chains>
@@ -213,5 +272,10 @@ SOFTWARE.
             <connection_map name="part0_hdmi_out_hpd_led_1" c1_st_index="22" c1_end_index="22" c2_st_index="0"
                             c2_end_index="0"/>
         </connection>
+
+        <connection name="part0_usb_uart" component1="part0" component2="usb_uart">
+            <connection_map name="part0_usb_uart_1" c1_st_index="69" c1_end_index="70" c2_st_index="0" c2_end_index="1"/>
+        </connection>
+
     </connections>
 </board>

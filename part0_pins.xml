@@ -93,6 +93,13 @@ SOFTWARE.
     <pin index="60" name="J2034" iostandard="LVCMOS33" loc="T20"/>
     <pin index="61" name="J2035" iostandard="LVCMOS33" loc="V15"/>
     <pin index="62" name="J2036" iostandard="LVCMOS33" loc="W15"/>
-
+    <pin index="63" name="485_TXD1" iostandard="LVCMOS33" loc="C8"/>
+    <pin index="64" name="485_RXD1" iostandard="LVCMOS33" loc="C5"/>
+    <pin index="65" name="485_DE1"  iostandard="LVCMOS33" loc="B5"/>
+    <pin index="66" name="485_TXD2" iostandard="LVCMOS33" loc="W13"/>
+    <pin index="67" name="485_RXD2" iostandard="LVCMOS33" loc="V12"/>
+    <pin index="68" name="485_DE2"  iostandard="LVCMOS33" loc="U19"/>
+    <pin index="69" name="usb_uart_rx" iostandard="LVCMOS33" loc="C12"/>
+    <pin index="70" name="usb_uart_tx" iostandard="LVCMOS33" loc="B12"/>
   </pins>
 </part_info>
