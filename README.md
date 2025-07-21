@@ -39,3 +39,27 @@ This board file enables the ALINX AX7Z020 development board with full support fo
 
 1. Place the folder under:
 
+C:\Xilinx\Vivado\2023.1\data\boards\board_files\AX7Z020\
+
+yaml
+Copy
+Edit
+
+2. Restart Vivado.
+
+3. Select **AX7Z020 Development Board** when creating a new project.
+
+---
+
+## 📚 Resources
+
+- [AX7Z020 Board Product Page](https://www.en.alinx.com/Product/SoC-development-Boards/Zynq-7000-SoC/AX7Z020B.html)
+- [Silicon Labs CP2102 Datasheet](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf)
+
+---
+
+## 📝 License
+
+MIT License  
+Copyright (c) 2025  
+Hamed Torki
