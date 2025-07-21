@@ -38,13 +38,9 @@ This board file enables the ALINX AX7Z020 development board with full support fo
 ## 🧩 Usage in Vivado
 
 1. Place the folder under:
-
-C:\Xilinx\Vivado\2023.1\data\boards\board_files\AX7Z020\
-
-yaml
-Copy
-Edit
-
+```
+    C:\Xilinx\Vivado\2023.1\data\boards\board_files\AX7Z020\
+```
 2. Restart Vivado.
 
 3. Select **AX7Z020 Development Board** when creating a new project.
